@@ -4,7 +4,7 @@ let colorHex = document.querySelector('span')
 
 function changeBackground() {
 	let result = ''
-	let characters = 'ABCDEFabcdef0123456';
+	let characters = 'ABCDEF0123456';
 	let charactersLength = characters.length
 
 	for (let i = 0; i <= 5; i++) {
